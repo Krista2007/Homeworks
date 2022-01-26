@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    padding: 50px;  
+}
+
+@media screen and (max-width: 767px) {
+    .flex-container {
+        padding: 20px;
+    }
+}
+
+.box {
+    font-size: 25px;
+    width: calc(25% - 6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    margin: 3px;
+}
+
+.box.one {
+    background-image: url('https://www.closetag.com/images/photo4.jpg');
+    margin-left: 4px;
+}
+
+.box.two {
+    background-image: url('https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg');
+}
+
+.box.three {
+    background-image: url('https://img1.goodfon.ru/wallpaper/nbig/5/fb/tailand-vecher-zakat-more-plyazh.jpg');
+}
+
+.box.four {
+   background-image: url('https://i1.7fon.org/thumb/f6740161.jpg');
+}
+
+.box.five {
+    background-image: url('https://klike.net/uploads/posts/2019-01/1547622131_1.jpg');
+}
+
+.box.six {
+    background-image: url('https://kipmu.ru/wp-content/uploads/pchmnmr-scaled.jpg');
+}
+
+.box.seven {
+    background-image: url('https://klike.net/uploads/posts/2019-12/1577730308_49.jpg');
+}
+
+.box.eight {
+    background-image: url('https://i.pinimg.com/736x/27/3a/c4/273ac4ef11799552fa168cf5c59cc5cf.jpg');
+}
+
+.box.nine {
+    background-image: url('https://pulson.ru/wp-content/uploads/2011/05/1286127235_3fe78f32.jpg');
+}
+
+.box.ten {
+    background-image: url('https://i.pinimg.com/736x/b1/3b/81/b13b81d79fe91e35008feeaf4c5b04d7.jpg');
+}
+
+.box.eleven {
+    background-image: url('https://static.make.ua/catalog/13/nature-00012__1365107268__615.jpg');
+}
+
+.box.twelve {
+    background-image: url('https://gre4ka.info/images/files3/ira/16/%D1%96%D1%89%D1%82.jpg');
+}
+
+.box.thirteen {
+    background-image: url('https://static10.tgstat.ru/channels/_0/26/2647150c2f9771a41145032b86b6c8a4.jpg');
+}
+
+.box.fourteen {
+    background-image: url('http://hypeava.ru/uploads/posts/2018-07/1530965758_10.jpg');
+}
